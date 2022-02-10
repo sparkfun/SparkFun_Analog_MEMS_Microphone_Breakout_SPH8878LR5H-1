@@ -9676,32 +9676,25 @@ The ICS-40180 is available in a small, 3.5 mm × 2.65 mm ×
 </symbols>
 <devicesets>
 <deviceset name="SPH8878LR5H-1" prefix="U">
-<description>&lt;h3&gt;ICS-40180 - RF-Hardened, Low-Noise MEMs Microphone with Bottom Port and Analog Output&lt;/h3&gt;
+<description>&lt;h3&gt;Knowles SPH8878LR5H-1 ANALOG BOTTOM PORT SISONIC™ MICROPHONE
+&lt;/h3&gt;
 &lt;p&gt;
-The ICS-40180* is an analog MEMS microphone with high SNR
-and enhanced RF immunity. The ICS-40180 includes a MEMS
-microphone element, an impedance converter, and an output
-amplifier.
+This is an analog MEMS microphone.
 &lt;/p&gt;
 &lt;p&gt;
-Other high-performance specification include a linear
-response up to 124 dB SPL, tight ±1 dB sensitivity tolerance,
-and enhanced immunity to both radiated and conducted RF
-interference.
+
 &lt;/p&gt;
 &lt;p&gt;
-The ICS-40180 is available in a small, 3.5 mm × 2.65 mm ×
-0.98 mm, surface-mount package.
+
 &lt;/p&gt;
 
 
 
-&lt;p&gt;&lt;a href="https://invensense.tdk.com/wp-content/uploads/2015/02/DS-000021-v1.22.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://media.digikey.com/pdf/Data%20Sheets/Knowles%20Acoustics%20PDFs/SPH8878LR5H-1_Lovato_DS.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4&gt;SparkFun Products&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/18011"&gt;SparkFun MEMS Microphone Breakout - ICS-40180&lt;/a&gt; (BOB-18011)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/18010"&gt;MEMS Microphone - ICS40180&lt;/a&gt; (COM-18010)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/18011"&gt;SparkFun MEMS Microphone Breakout - SPH8878LR5H-1&lt;/a&gt; (BOB-19389)&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="SPH8878LR5H-1" x="0" y="0"/>
@@ -9716,7 +9709,7 @@ The ICS-40180 is available in a small, 3.5 mm × 2.65 mm ×
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="IC-" constant="no"/>
+<attribute name="PROD_ID" value="IC-16576" constant="no"/>
 </technology>
 </technologies>
 </device>

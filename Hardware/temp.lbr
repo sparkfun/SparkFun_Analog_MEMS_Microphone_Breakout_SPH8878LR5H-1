@@ -282,8 +282,7 @@ This is an analog MEMS microphone.
 
 &lt;h4&gt;SparkFun Products&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/18011"&gt;SparkFun MEMS Microphone Breakout - ICS-40180&lt;/a&gt; (BOB-18011)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/18010"&gt;MEMS Microphone - ICS40180&lt;/a&gt; (COM-18010)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/18011"&gt;SparkFun MEMS Microphone Breakout - SPH8878LR5H-1&lt;/a&gt; (BOB-19389)&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="SPH8878LR5H-1" x="0" y="0"/>
@@ -298,7 +297,7 @@ This is an analog MEMS microphone.
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="IC-" constant="no"/>
+<attribute name="PROD_ID" value="IC-16576" constant="no"/>
 </technology>
 </technologies>
 </device>
