@@ -10478,6 +10478,7 @@ Bias: 1/2*VCC</text>
 for single ended output
 See datasheet pg 4</text>
 <wire x1="80.772" y1="113.792" x2="66.04" y2="85.344" width="0.2032" layer="97" style="shortdash"/>
+<text x="149.86" y="7.62" size="1.778" layer="94" font="vector">Based on a MEMs mic design by Pete Dokter</text>
 </plain>
 <instances>
 <instance part="JP1" gate="J$1" x="205.74" y="121.92" smashed="yes" rot="R180">

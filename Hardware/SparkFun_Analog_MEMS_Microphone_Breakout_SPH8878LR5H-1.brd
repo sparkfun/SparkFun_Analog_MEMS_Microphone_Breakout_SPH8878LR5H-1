@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -203,6 +203,7 @@
 <dimension x1="0" y1="0" x2="2.54" y2="3.81" x3="1.27" y3="13.97" textsize="1.27" textratio="15" layer="47" dtype="horizontal" width="0.0762" unit="inch" precision="3"/>
 <dimension x1="0" y1="0" x2="2.54" y2="3.81" x3="-3.81" y3="1.905" textsize="1.27" textratio="15" layer="47" dtype="vertical" width="0.0762" unit="inch"/>
 <text x="-2.54" y="22.86" size="1.27" layer="47" font="vector">Units: INCHES</text>
+<text x="-7.62" y="-13.97" size="1.778" layer="51" font="vector" ratio="9">Based on a MEMs mic design by Pete Dokter</text>
 </plain>
 <libraries>
 <library name="SparkFun-Resistors">
@@ -2320,7 +2321,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="C4" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="6.4262" y="2.3876" smashed="yes" rot="R180">
 <attribute name="NAME" x="7.3152" y="1.6891" size="0.4064" layer="25" rot="R180"/>
 <attribute name="PROD_ID" value="CAP-00810" x="6.4262" y="2.3876" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" value="0.1uF" x="7.3025" y="1.8034" size="0.4064" layer="27" font="vector" ratio="12" rot="R180"/>
+<attribute name="VALUE" value="0.1uF" x="9.6139" y="2.5908" size="0.4064" layer="27" font="vector" ratio="12" rot="R180"/>
 </element>
 <element name="C1" library="SparkFun-Capacitors" package="0603" value="4.7uF" x="2.3114" y="8.9154" smashed="yes">
 <attribute name="NAME" x="1.4224" y="9.6139" size="0.4064" layer="25"/>
@@ -2337,7 +2338,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="IC-08251" x="6.6294" y="4.7498" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="6.4262" y="4.8514" size="0.4064" layer="27" font="vector" ratio="12" rot="R270" align="bottom-center"/>
 </element>
-<element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="2.5146" y="6.5532" smashed="yes" rot="MR270"/>
+<element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="2.5146" y="6.5278" smashed="yes" rot="MR270"/>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-MINI" value="OSHW-LOGOMINI" x="2.54" y="3.81" smashed="yes" rot="MR270"/>
 <element name="FRAME2" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-19.05" y="-11.43" smashed="yes">
 <attribute name="DESIGNER" value="" x="-19.05" y="-11.43" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
@@ -2355,16 +2356,15 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U3" library="temp" package="SPH8878LR5H-1" value="SPH8878LR5H-1" x="2.54" y="3.81" smashed="yes">
 <attribute name="NAME" x="2.54" y="6.858" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="IC-16576" x="2.54" y="3.81" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="VALUE" x="2.54" y="2.032" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="VALUE" x="0.254" y="5.0292" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="U$7" library="output" package="MEMS_MIC0" value="" x="8.001" y="1.016" smashed="yes"/>
 <element name="U$9" library="output" package="SPH8878LR5H#10" value="" x="6.731" y="0.889" smashed="yes" rot="MR0"/>
-<element name="OUT-" library="SparkFun-Connectors" package="TP_15TH" value="" x="2.667" y="7.747" smashed="yes" rot="MR0"/>
+<element name="OUT-" library="SparkFun-Connectors" package="TP_15TH" value="" x="2.54" y="7.62" smashed="yes" rot="MR0"/>
 </elements>
 <signals>
 <signal name="N$1">
 <contactref element="C1" pad="1"/>
-<wire x1="1.702" y1="8.6748" x2="1.4614" y2="8.9154" width="0.254" layer="1"/>
 <contactref element="U3" pad="1"/>
 <wire x1="1.4614" y1="8.9154" x2="1.722" y2="8.6548" width="0.254" layer="1"/>
 <wire x1="1.722" y1="8.6548" x2="1.722" y2="5.865" width="0.254" layer="1"/>
@@ -2391,8 +2391,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="0.6858" y="7.7978" extent="1-16" drill="0.381"/>
 <via x="12.5476" y="9.5504" extent="1-16" drill="0.381"/>
 <via x="13.335" y="0.6096" extent="1-16" drill="0.381"/>
-<via x="9.398" y="1.6256" extent="1-16" drill="0.381"/>
-<via x="3.787140625" y="6.957059375" extent="1-16" drill="0.381"/>
+<via x="8.9916" y="1.6256" extent="1-16" drill="0.381"/>
+<via x="3.787140625" y="6.906259375" extent="1-16" drill="0.381"/>
 <via x="9.4742" y="3.9116" extent="1-16" drill="0.381"/>
 <via x="5.461" y="4.699" extent="1-16" drill="0.381"/>
 <contactref element="U3" pad="3"/>
@@ -2411,12 +2411,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="5.5833" y1="3.5458" x2="5.5833" y2="2.3947" width="0.254" layer="1"/>
 <wire x1="5.5762" y1="2.3876" x2="5.5833" y2="2.3947" width="0.254" layer="1"/>
 <wire x1="5.5833" y1="3.5458" x2="5.3293" y2="3.7998" width="0.254" layer="1"/>
-<wire x1="6.604" y1="1.4224" x2="5.8674" y2="1.4224" width="0.254" layer="1"/>
-<wire x1="5.5762" y1="2.3876" x2="5.5762" y2="1.7136" width="0.254" layer="1"/>
-<wire x1="5.8674" y1="1.4224" x2="5.5762" y2="1.7136" width="0.254" layer="1"/>
-<via x="6.604" y="1.4224" extent="1-16" drill="0.381"/>
-<wire x1="6.604" y1="1.4224" x2="7.7216" y2="2.54" width="0.254" layer="16"/>
-<wire x1="7.7216" y1="2.54" x2="12.7" y2="2.54" width="0.254" layer="16"/>
+<wire x1="4.572" y1="2.3876" x2="5.5762" y2="2.3876" width="0.254" layer="1"/>
+<via x="4.572" y="2.3876" extent="1-16" drill="0.381"/>
+<wire x1="4.572" y1="2.3876" x2="4.7244" y2="2.54" width="0.254" layer="16"/>
+<wire x1="4.7244" y1="2.54" x2="12.7" y2="2.54" width="0.254" layer="16"/>
 <wire x1="10.9474" y1="2.6044" x2="11.0118" y2="2.54" width="0.254" layer="1"/>
 <wire x1="11.0118" y1="2.54" x2="12.7" y2="2.54" width="0.254" layer="1"/>
 <contactref element="U3" pad="5"/>
@@ -2473,11 +2471,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="U3" pad="6"/>
 <contactref element="OUT-" pad="1"/>
 <wire x1="2.54" y1="5.473" x2="2.54" y2="7.62" width="0.254" layer="1"/>
-<wire x1="2.54" y1="7.62" x2="2.667" y2="7.747" width="0.254" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
-<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8AA0000"/>
 <mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
 <mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
@@ -2485,7 +2482,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </mfgpreviewcolors>
 <errors>
 <approved hash="4,1,0abb8433582797aa"/>
-<approved hash="4,1,8b29e16ace60290c"/>
 </errors>
 </board>
 </drawing>
