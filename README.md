@@ -1,4 +1,4 @@
-SparkFun MEMS Microphone Breakout ICS-40180
+SparkFun Analog MEMS Microphone Breakout - SPH8878LR5H-1
 ========================================
 
 [![SparkFun MEMS Microphone Breakout (ICS-40180)](https://cdn.sparkfun.com/assets/parts/1/9/0/2/5/19389-SparkFun_Analog_MEMS_Microphone_Breakout_-_SPH8878LR5H-1-01.jpg)](https://www.sparkfun.com/products/19389)
